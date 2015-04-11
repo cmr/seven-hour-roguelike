@@ -1,0 +1,14 @@
+[package]
+name = "rogue"
+version = "0.0.1"
+authors = ["Corey Richardson <corey@octayn.net>"]
+
+[dependencies.ecs]
+#git = "https://github.com/cmr/ecs"
+path = "/home/cmr/ecs"
+
+[dependencies.rustbox]
+git = "https://github.com/gchp/rustbox.git"
+
+[dependencies.rand]
+git = "https://github.com/rust-lang/rand.git"
